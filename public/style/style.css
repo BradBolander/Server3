@@ -1,20 +1,37 @@
 body {
   font-size: 16px;
+  background-image: url("http://41.media.tumblr.com/9a7230b838379464c767716da456d744/tumblr_nm8m5nN8zg1ta0hnbo1_1280.jpg");
 }
 
 header {
   height: 100px;
   width: 100%;
   text-align: center;
-  border: 2px solid blue;
+
   float: left;
   position: relative;
+}
+
+#about-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#services-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#home-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .nav {
   height: 50px;
   width: 100%;
-  border: 2px dotted pink;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.75);
+  border-top: 1px solid rgba(161, 161, 161, 0.75);
   float: left;
   position: relative;
 }
@@ -24,8 +41,8 @@ input {
 }
 
 .input-wrapper {
-  margin-left: 25%;
-  margin-top: 4%;
+  margin-left: 32%;
+  margin-top: 15px;
 
 }
 
@@ -35,13 +52,14 @@ input {
   float: left;
   width: 80%;
   margin-left: 10%;
+  background-color: rgba(75, 75, 75, 0.22);
   position: relative;
-  border: 2px solid orange;
+
 }
 
 footer {
-  margin-top: 5%;
-  border: 2px dotted red;
+  margin-top: 10%;
+  border-top: 1px solid rgba(161, 161, 161, 0.75);
   float: left;
   text-align: center;
   position: relative;
