@@ -1,16 +1,49 @@
 body {
   font-size: 16px;
-  background-color: green;
 }
 
 header {
   height: 100px;
   width: 100%;
+  text-align: center;
   border: 2px solid blue;
+  float: left;
+  position: relative;
 }
 
 .nav {
   height: 50px;
-  width: 80%;
+  width: 100%;
   border: 2px dotted pink;
+  float: left;
+  position: relative;
+}
+
+input {
+  margin-left: 8%;
+}
+
+.input-wrapper {
+  margin-left: 25%;
+  margin-top: 4%;
+
+}
+
+.content {
+  margin-top: 5%;
+  height: 300px;
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+  border: 2px solid orange;
+}
+
+footer {
+  margin-top: 5%;
+  border: 2px dotted red;
+  float: left;
+  text-align: center;
+  position: relative;
+  width: 100%;
 }
