@@ -8,3 +8,9 @@ header {
   width: 100%;
   border: 2px solid blue;
 }
+
+.nav {
+  height: 50px;
+  width: 80%;
+  border: 2px dotted pink;
+}
