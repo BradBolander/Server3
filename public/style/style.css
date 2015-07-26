@@ -1,5 +1,6 @@
 body {
   font-size: 16px;
+  font-family: Open Sans;
   background-image: url("http://41.media.tumblr.com/9a7230b838379464c767716da456d744/tumblr_nm8m5nN8zg1ta0hnbo1_1280.jpg");
 }
 
@@ -7,29 +8,15 @@ header {
   height: 100px;
   width: 100%;
   text-align: center;
-
   float: left;
   position: relative;
 }
 
-#about-button {
-  background-color: rgba(255, 255, 255, 0);
-  border: 1px solid rgba(255, 255, 255, 0);
-}
-
-#services-button {
-  background-color: rgba(255, 255, 255, 0);
-  border: 1px solid rgba(255, 255, 255, 0);
-}
-
-#home-button {
-  background-color: rgba(255, 255, 255, 0);
-  border: 1px solid rgba(255, 255, 255, 0);
-}
 
 .nav {
   height: 50px;
-  width: 100%;
+  width: 110%;
+  margin-left: -5%;
   border-bottom: 1px solid rgba(161, 161, 161, 0.75);
   border-top: 1px solid rgba(161, 161, 161, 0.75);
   float: left;
@@ -51,10 +38,13 @@ input {
   height: 300px;
   float: left;
   width: 80%;
+  text-align: center;
+  padding-left: 20px;
   margin-left: 10%;
-  background-color: rgba(75, 75, 75, 0.22);
+  background-color: rgba(135, 135, 135, 0.22);
   position: relative;
-
+  -webkit-transition: width 2s;
+  transition: width 2s;
 }
 
 footer {
@@ -65,3 +55,10 @@ footer {
   position: relative;
   width: 100%;
 }
+
+.btn {
+  position: relative;
+  float: left;
+  color: #616161;
+  margin-left: 9%;
+}​
